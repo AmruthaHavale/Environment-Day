@@ -1,0 +1,71 @@
+.heading
+{
+    background-color: #2e8b57;
+    color: white;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+}
+
+.heading h3
+{
+    font-size: 15px;
+}
+
+.Line
+{
+    display: flex;
+}
+
+.Slogan
+{
+    background: linear-gradient(to bottom right, #e0ffe0, #c8facc);
+    color: #2e8b57;
+    font-style: italic;
+    font-size: 15px;
+    border: rgb(0,100,0) solid 1px;
+    width: 50%;
+    height: 200px;
+    padding: 15px;
+    margin:10px;
+    transition: transform 0.3s ease-out, background-color 0.3s;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    align-content: center;
+}
+
+.explanation {
+    display: none; /* hidden by default */
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+
+.Slogan h2
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Slogan:hover 
+{
+    background-color: #2e8b57;
+    transform: scale(1.05);
+}
+
+.Slogan:hover .explanation 
+{
+    font-size: 20px;
+    display: block;
+    align-content: center;
+}
+
+.Slogan:hover h2
+{
+    display: none;
+}
