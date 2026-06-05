@@ -17,8 +17,8 @@ Each slogan card reveals its explanation when hovered over, making the experienc
 
 ## 📂 Project Structure
 
-Eco-friendly-Website/
-│
-├── index.html      # Main HTML file
-├── style.css       # Stylesheet for design
-└── README.md
+Eco-friendly-Website/  
+│  
+├── index.html      # Main HTML file  
+├── style.css       # Stylesheet for design  
+└── README.md  
