@@ -19,6 +19,6 @@ Each slogan card reveals its explanation when hovered over, making the experienc
 
 Eco-friendly-Website/  
 │  
-├── index.html       # Main HTML file  
-├── style.css        # Stylesheet for design  
+├── index.html           
+├── style.css            
 └── README.md  
